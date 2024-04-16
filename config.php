@@ -1,9 +1,9 @@
 <?php
 // Configuración de la conexión a la base de datos MySQL
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "blynk";
+$servername = "	sql206.infinityfree.com";
+$username = "if0_36365372";
+$password = "12Listasi";
+$dbname = "if0_36365372_blynk";
 
 // Obtener los datos de la solicitud (supongamos que recibes los datos como parámetros POST)
 $led = $_POST['led'];
