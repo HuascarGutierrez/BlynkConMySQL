@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Datos de Blynk</title>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Datos de Blynk</h1>
+  <button onclick="cargarDatos()">Cargar Datos del API</button>
+    <form id="dataForm" style="display:none" action="config.php" method="post">
+        <input type="hidden" id="led" name="led">
+        <input type="hidden" id="infrarrojo" name="infrarrojo">
+        <input type="hidden" id="luz" name="luz">
+        <input type="hidden" id="temperatura" name="temperatura">
+        <input type="hidden" id="potenciometro" name="potenciometro">
+        <input type="hidden" id="distancia" name="distancia">
+        <input type="submit" value="Enviar">
+    </form>
+  <h2>datos prueba</h2>
+  <div id="apiData">
+    
+  </div>
+  <!-- Enlace al archivo JavaScript -->
+  <script src="script2.js"></script>
+</body>
+</html>
